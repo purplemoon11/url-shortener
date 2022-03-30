@@ -1,0 +1,9 @@
+Test case to create shortUrl: (POST)
+-> http://localhost:5000/api/url
+To check on Postman(Json)
+{
+    "destination": "https://www.google.com"
+} 
+
+Test case to redirect to the page:(GET)
+->http://localhost:5000/(given shortUrl from above)
